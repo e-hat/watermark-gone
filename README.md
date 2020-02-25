@@ -10,4 +10,4 @@ I did NOT write the file 'stl10_input.py'. I got that from the [STL10 website](h
 [Pillow](https://pillow.readthedocs.io/en/stable/installation.html)  
 
 ## Usage
-For now, all you can do is load data. Before you run `main.py`, download the STL10 data with `python load_data.py`, or however you run python files on your system. Then, you will be able to `python main.py`.
+For now, all you can do is load data. Before you run `main.py`, download the STL10 data and generate the watermarked images with `python load_data.py`, or however you run python files on your system. Then, you will be able to `python main.py`.
