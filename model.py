@@ -138,5 +138,4 @@ def generate_and_save_images(epoch):
     plt.show()
 
 
-generate_and_save_images(0)
 train()
