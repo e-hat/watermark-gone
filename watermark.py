@@ -70,7 +70,6 @@ def make_watermark(width, height):
     backdrop = make_word_grid(backdrop_length)
 
     backdrop = backdrop.rotate(np.random.randint(theta_min, theta_max))
-    backdrop.save('test2.png')
 
     backdrop = np.array(backdrop, dtype="float64")
     backdrop *= np.random.uniform(alpha_min, alpha_max)
