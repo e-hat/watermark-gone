@@ -4,3 +4,4 @@
 !.keep
 *.sh
 *.ipynb
+env/*
