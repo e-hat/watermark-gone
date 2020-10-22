@@ -12,7 +12,7 @@ BATCH_SIZE = 10
 TRAIN_BUFFER_SIZE = 5000
 TEST_BUFFER_SIZE = 8000
 
-(x_train, y_train), (x_test, y_test) = get_data()
+(x_train, y_train), (x_test, y_test) = get_data(TRAIN_BUFFER_SIZE, TEST_BUFFER_SIZE)
 
 x_train = normalize(x_train.astype('float32'), 0, 255, 0, 1) 
 x_test = normalize(x_test.astype('float32'), 0, 255, 0, 1)
