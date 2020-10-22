@@ -3,3 +3,4 @@
 /progress_images/*
 !.keep
 *.sh
+*.ipynb
